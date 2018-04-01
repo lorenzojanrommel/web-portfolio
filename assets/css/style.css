@@ -13,6 +13,11 @@ body {
 nav {
 	opacity: 0.9;
 }
+main {
+	background-color: #202123a1;
+	opacity: .9;
+	z-index: -222;
+}
 #intro{
 	height: 720px;
 	width: 100%;
@@ -55,7 +60,7 @@ nav {
 }
 
 .skillset-details{
-	height: 250px;
+	/*height: 250px;*/
 	padding: 10px;
 	text-align: center;
 }
@@ -63,8 +68,14 @@ nav {
 	padding: 10px;
 	display: block;
 }
-.skills {
+.skills > h5 {
 	padding: 20px;
+	text-shadow: 10px 5px 5px #000;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.email, .number {
+	text-shadow: 10px 5px 5px #000;
 }
 
 #myBtn {
