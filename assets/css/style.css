@@ -76,6 +76,7 @@ main {
 }
 .email, .number {
 	text-shadow: 10px 5px 5px #000;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #myBtn {
